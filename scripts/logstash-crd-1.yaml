@@ -4,10 +4,6 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.13.0
-  labels:
-    app.kubernetes.io/instance: 'elastic-operator'
-    app.kubernetes.io/name: 'eck-operator-crds'
-    app.kubernetes.io/version: '2.10.0'
   name: logstashes.logstash.k8s.elastic.co
 spec:
   group: logstash.k8s.elastic.co
