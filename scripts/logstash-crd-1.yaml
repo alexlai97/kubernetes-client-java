@@ -57,6 +57,9 @@ spec:
               version:
                 description: Version of the Logstash.
                 type: string
+            required:
+            - version
+            type: object
           status:
             description: LogstashStatus defines the observed state of Logstash
             properties:
